@@ -1,0 +1,469 @@
+/*Import specific Font Family style*/
+@font-face {
+  font-family: FreshFruit;
+  src: url(G:\HTML_CSS\bucks_farmstand\fontStyle\fresh_fruit.ttf);
+}
+
+/*overrides everything for specifc page*/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	/*background-color: #FFDAB9;*/
+	overflow: auto;
+	
+	
+}
+
+/*referring to all of these categories not specifc to a class/ID*/
+li, a, button {
+	
+	font-family: "cursive", cursive;
+	font-weight: 500;
+	font-size: 16px;
+	color: #000000;
+	text-decoration: none;
+
+}
+
+
+
+/*Bucks Nav CSS*/
+/*Can add an href tag/ref here for logo to direct to*/
+.logo{
+	object-fit: cover;
+	position: relative;
+	left: 10px;
+	top: 5px;
+	height: 90px;
+	width: 100px;
+
+	cursor: pointer;	
+}
+
+.navHeader{
+	
+	background: #deb887;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2px 2%;
+	height: 85px;
+	overflow: hidden;
+}
+
+#bucksNav {
+	background: #deb887;
+}
+
+.nav_links{
+	position: static;
+	background: #deb887;
+	list-style: none;
+}
+
+.nav_links li {
+	background: #deb887;
+	text-decoration: underline;
+	display: inline-block;
+	padding: 0px 85px;
+}
+
+.nav_links li a{
+	background: #deb887;
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+	color: green;
+}
+
+.homeLink{
+	position: relative;	
+	right: 17px;
+}
+
+.pickupLink{
+	position: relative;
+	right: 17px;
+}
+
+.aboutLink{
+	position: relative;	
+}
+
+.cta{
+	background: #deb887;
+}
+
+button{
+	padding: 9px 25px;
+	background-color: rgba(35,255,0,0.5);
+	border: 2px solid;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover{
+	background-color: yellow;
+}
+
+
+
+/*Produce/Inventory Banner*/
+.inventoryHeader{
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 35px;
+}
+
+.inventoryBanner{
+	text-align: center;
+	height: 185px;
+	width: 700px;
+}
+
+
+
+/*Bucks Inventory Main Body CSS*/
+#mainPageBody{
+	background-color: #FFDAB9;
+	margin-left: auto;
+	margin-right: auto;	
+	overflow: auto;
+}
+
+/*Hide Scroll Bar*/
+#mainPageBody::-webkit-scrollbar {
+	display: none;
+}
+
+/*Hide Scroll Bar*/
+#mainPageBody{
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+}
+
+
+
+/*Buck's Produce Showcase*/
+.topShowcase{
+	text-align: center;
+	
+}
+
+.generalProduce{
+	text-align: center;
+	object-fit: contain;
+	width: 960px;
+	height: 488px;
+	border-style: outset;
+	border-width: thin;
+	border-radius: 30px;
+	
+}
+
+.bottomShowcase{
+	text-align: center;
+}
+
+.standOne{
+	
+	object-fit: cover;
+	width: 651px;
+	height: 371px;
+	border-style: outset;
+	border-width: thin;
+	border-radius: 30px;
+}
+
+.standTwo{
+	
+	object-fit: contain;
+	width: 651px;
+	height: 371px;
+	border-style: outset;
+	border-width: thin;
+	border-radius: 30px;
+}
+
+.priceDisclaimer{
+	padding-top: 5px;
+	padding-bottom: 15px;
+	text-align: center;
+	font-style: italic;
+	font-size: 18px;
+	color: #989898
+}
+
+
+.produceBlurbHeader{
+	text-align: center;
+	font-style: italic;
+	font-size: 85px;
+	color: #C09A69;
+
+	
+
+}
+
+
+
+/*Extra Produce Slide Show*/
+.fruitProduce{
+	text-align: center;
+	padding-top: 55px;
+	padding-bottom: 135px;
+}
+
+.fruitHeader{
+	padding-top: 35px;
+	padding-bottom: 25px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 35px;
+	color: #C09A69;
+}
+
+.watermelonDisplay{
+	object-fit: contain;
+	width: 296px;
+	height: 393px;
+	border-style: inset;
+	border-color: #deb887;
+	border-width: medium;
+	border-radius: 40px;
+}
+
+.melonDisplay{
+	object-fit: contain;
+	width: 296px;
+	height: 393px;
+	border-style: inset;
+	border-color: #deb887;
+	border-width: medium;
+	border-radius: 40px;
+}
+
+.peachesDisplay{
+	object-fit: contain;
+	width: 296px;
+	height: 393px;
+	border-style: inset;
+	border-color: #deb887;
+	border-width: medium;
+	border-radius: 40px;
+}
+
+.vegProduce{
+	text-align: center;
+	padding-bottom: 135px;
+	border-top: 25px solid #228B22;
+}
+
+.vegHeader{
+	padding-top: 55px;
+	padding-bottom: 25px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 35px;
+	color: #C09A69;
+}
+
+.tomatoDisplay{
+	object-fit: contain;
+	width: 296px;
+	height: 393px;
+	border-style: inset;
+	border-color: #deb887;
+	border-width: medium;
+	border-radius: 40px;
+}
+
+.greenBeanDisplay{
+	object-fit: contain;
+	width: 520px;
+	height: 393px;
+	border-style: inset;
+	border-color: #deb887;
+	border-width: medium;
+	border-radius: 40px;
+}
+
+.cornDisplay{
+	object-fit: contain;
+	width: 455px;
+	height: 393px;
+	border-style: inset;
+	border-color: #deb887;
+	border-width: medium;
+	border-radius: 40px;
+}
+
+.preservesProduce{
+	text-align: center;
+	padding-bottom: 50px;
+	border-top: 25px solid #228B22;
+}
+
+.preservesHeader{
+	padding-top: 55px;
+	padding-bottom: 25px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 35px;
+	color: #C09A69;
+}
+
+.honeyDisplay{
+	object-fit: contain;
+	width: 374px;
+	height: 605px;
+	border-style: inset;
+	border-color: #deb887;
+	border-width: medium;
+	border-radius: 40px;
+}
+
+.price{
+	padding-top: 5px;
+	padding-bottom: 15px;
+	text-align: center;
+	font-style: italic;
+	font-size: 25px;
+	color: black;
+}
+
+
+
+/*Bucks Footer CSS*/
+#bucksFooter{
+	
+	padding: 10px 10px 0px 10px;
+	bottom: 0;
+	width: 100%;
+	/* Height of the footer*/ 
+	height: 90px;
+	background: #deb887;
+}
+
+#bucksFooter p{
+	background: #deb887;
+}
+
+/*Hide Scroll Bar*/
+#bucksFooter::-webkit-scrollbar {
+	display: none;
+}
+
+/*Hide Scroll Bar*/
+#bucksFooter{
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+}
+
+.column{
+	float:left;
+	text-align: center;
+	width: 33.33%;
+	padding: 5px;
+	background: #deb887;
+}
+
+.column h1{
+	margin-top: -15px;
+	text-align: center;
+	font-size: 30px;
+	font-family: "cursive", cursive;
+	text-decoration: underline;
+	background: #deb887;
+}
+
+.column p{
+	text-align: center;
+	font-size: 15px;
+	color: #228B22;
+}
+
+.column img{
+	background: #deb887;
+}
+
+.column a{
+	background: #deb887;
+}
+
+.hoursP{
+	padding: 2px;
+}
+
+.addressP{
+	padding-top: 15px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.addressP:hover {
+	color: yellow;
+}
+
+.socialMedia{
+	padding-bottom: 5px;
+}
+
+.fb{
+	position: relative;
+	right: 30px;
+	object-fit: contain;
+	width: 40px;
+	height: 40px;
+	background: #deb887;
+	cursor: pointer;
+}
+
+.google{
+	position: relative;
+	left: 22px;	
+	object-fit: contain;
+	width: 40px;
+	height: 40px;
+	background: #deb887;
+	cursor: pointer;
+}
+
+.insta{
+	position: relative;
+	right: 2px;
+	object-fit: contain;
+	width: 40px;
+	height: 40px;
+	background: #deb887;
+	cursor: pointer;
+}
+
+.row{
+	background: #deb887;
+}
+
+.row:after{
+	content: "";
+	display: table;
+	background: #deb887;
+	clear: both;
+}
+
+
+
+/*Production Info*/
+.productionInfo{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background: #deb887;
+	text-align: center;
+	font-size: 16px;
+	color: #f8f8ff;	
+}

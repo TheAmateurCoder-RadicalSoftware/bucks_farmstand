@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<title>Buck's Farmstand</title>
+		<link rel="icon" type="image/x-icon" href="images\tomatoFaviconRounded.ico">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="bucksPickUpStyle.css">
+	</head>
+
+
+	<body id="mainPageBody">
+		<header class="navHeader">
+			<img class="logo" src="images/bucksLogoNew.jpg" alt="logo">
+			<nav id="bucksNav">
+				<ul class="nav_links">
+					<li class="homeLink"><a href="G:\HTML_CSS\bucks_farmstand\bucks_index.html">Home</a></li>
+					<li class="produceLink"><a href="G:\HTML_CSS\bucks_farmstand\bucksInventory.html">Produce</a></li>
+					<li class="aboutLink"><a href="G:\HTML_CSS\bucks_farmstand\bucksAbout.html">About</a></li>
+				</ul>
+			</nav>
+			
+		
+			<!-- <img class="veggieCharacters" src="images/veggiecharactersRoughEdit.jpg"> -->
+			<a class="cta" href="G:\HTML_CSS\bucks_farmstand\bucksContact.html"><button>Contact</button></a>	
+		
+		</header>
+
+		<h1 class="pickUpHeader">
+			<img class="pickUpBanner" src="images/pickUpBanner.jpg">
+		</h1>
+
+		<div class="formContainer">
+			<h1 class="pickUpHeader">Pick-Up Order Form</h1>
+
+			<form action="/action_page.php">
+    				<label for="fname">First Name:</label>
+    				<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    				<label for="lname">Last Name:</label>
+   			 	<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+				
+				<label for="pnum">Phone Number:</label>
+   			 	<input type="text" id="pnum" name="phoneNum" placeholder="Your phone number..">
+				
+				<label for="email">Email:</label>
+   			 	<input type="text" id="email" name="emailInfo" placeholder="Your email..">
+
+				<!-- Need to make name value different/distinct so multiple values can be selected for sumbission/ordering -->
+    				<label for="fruit">Fruit:</label><br>
+    				<span class="fruitSelect"><input type="radio" id="peaches" name="fruitInfo" value="Peaches"></span>
+				<label for="peaches">Peaches</label><br>
+				<span class="fruitSelect"><input type="radio" id="plums" name="fruitInfo" value="Plums"></span>
+				<label for="plums">Plums</label><br>
+  				<span class="fruitSelect"><input type="radio" id="grapes" name="fruitInfo" value="grapes"></span>
+				<label for="grapes">Grapes</label><br>
+				<span class="fruitSelect"><input type="radio" id="watermelon" name="fruitInfo" value="Watermelon"></span>
+				<label for="watermelon">Watermelon</label><br>
+  				
+				<label for="fruit">Veggies:</label><br>
+    				<span class="fruitSelect"><input type="radio" id="tomato" name="vegInfo" value="Tomato"></span>
+				<label for="tomato">Tomatoes</label><br>
+				<span class="fruitSelect"><input type="radio" id="corn" name="vegInfo" value="Corn"></span>
+				<label for="corn">Corn</label><br>
+  				<span class="fruitSelect"><input type="radio" id="bellPepper" name="vegInfo" value="BellPepper"></span>
+				<label for="bellPepper">Bell Peppers</label><br>
+				<span class="fruitSelect"><input type="radio" id="potato" name="vegInfo" value="Potato"></span>
+				<label for="potato">Potatoes</label><br>
+  				
+				<label for="fruit">Preserves:</label><br>
+    				<span class="fruitSelect"><input type="radio" id="honey" name="preserveInfo" value="Honey"></span>
+				<label for="honey">Honey</label><br>
+  
+    				<input type="submit" value="Submit">
+  			</form>
+			
+		</div>
+
+		<br>       
+		
+		<p class="infoDisclaimer">*Prices and Produce subject to change throughout the season based on availability*</p>	
+		<p class="infoDisclaimer">*Please refer to Home page and Produce for Produce availability and updated pricing*</p>
+		<p class="infoDisclaimer">*Please contact us for any concerns or questions you may have*</p>
+
+		<br>
+	
+         	<footer id="bucksFooter">
+			<div class="row">
+				<div class="column">
+					<h1>Farmstand Hours</h1>
+					<p style = "padding-top: 6px;"class="hoursP">Monday	9AM – 4:30PM</p>
+					<p class="hoursP">Tuesday	9AM – 4:30PM</p>	
+					<p class="hoursP">Wednesday	9AM – 4:30PM</p>
+					<p class="hoursP">Thursday	9AM – 4:30PM</p>	
+					<p class="hoursP">Friday	9AM – 4:30PM</p>
+					<p class="hoursP">Saturday	9AM – 1PM</p>
+					<p class="hoursP">Sunday	Closed</p>				
+				</div>
+			
+				<div class="column">
+					<h1 class="socialMedia">Social Media</h1>
+					<a href="https://www.facebook.com/Bucks-Farmstand-115100990267871/?ref=page_internal" target="_blank">
+						<img class="fb" src="images/fbGreen.jpg">
+					</a>
+					<a href="" target="_blank">
+						<img class="insta" src="images/instaFinal.jpg">
+					</a>
+					<a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0LCoqTjFNys0xYLRSNaiwsDBINU4yszA0NTY0MU40tjKoSDWySEu0MEkzNzayMDA1NfUSTSpNzi5WSEssyi0uScxLUUjMKc4sAABKhhbs&q=bucks+farmstand+alsip&rlz=1C1UEAD_enUS947US947&oq=bucks+farmstand+&aqs=chrome.1.0i355i512j46i175i199i512j69i57j69i60l3.4576j0j7&sourceid=chrome&ie=UTF-8" target="_blank">
+						<img class="google" src="images/googleFinal.jpg">
+					</a>
+				</div>
+
+				<div class="column">
+					<h1>Come Visit Bucks!</h1>
+					<a href="https://www.google.com/maps/place/Buck%E2%80%99s+Farmstand/@41.6694853,-87.7253761,15z/data=!4m5!3m4!1s0x0:0xe28fa84f73280555!8m2!3d41.6694385!4d-87.7253685" target="_blank">
+						<p class="addressP">12300 S Keeler Ave, Alsip, IL 60803</p>
+					</a>
+				</div>		
+			</div>	
+		
+			<div class="productionInfo">	
+				<p>Website Produced by @TheAmateurCoder</p>
+				<p>&copy; Copyright 2022 Radical Software</p>
+			</div>	
+		</footer>
+
+
+
+
+
+
+
+	</body>	
+</html>

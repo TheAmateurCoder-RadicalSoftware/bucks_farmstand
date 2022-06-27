@@ -1,0 +1,321 @@
+/*overrides everything for specifc page*/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	/*background-color: #FFDAB9;*/
+	overflow: auto;
+	
+	
+}
+
+/*referring to all of these categories not specifc to a class/ID*/
+li, a, button {
+	
+	font-family: "cursive", cursive;
+	font-weight: 500;
+	font-size: 16px;
+	color: #000000;
+	text-decoration: none;
+
+}
+
+
+
+/*Bucks Nav CSS*/
+/*Can add an href tag/ref here for logo to direct to*/
+.logo{
+	object-fit: cover;
+	position: relative;
+	left: 10px;
+	top: 5px;
+	height: 90px;
+	width: 100px;
+	
+	cursor: pointer;	
+}
+
+.navHeader{
+	
+	background: #deb887;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2px 2%;
+	height: 85px;
+	overflow: hidden;
+}
+
+#bucksNav {
+	background: #deb887;
+}
+
+.nav_links{
+	position: static;
+	background: #deb887;
+	list-style: none;
+}
+
+.nav_links li {
+	background: #deb887;
+	text-decoration: underline;
+	display: inline-block;
+	padding: 0px 85px;
+}
+
+.nav_links li a{
+	background: #deb887;
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+	color: green;
+}
+
+.homeLink{
+	position: relative;	
+	right: 10px;
+}
+
+.produceLink{
+	position: relative;
+	right: 25px;
+}
+
+.pickupLink{
+	position: relative;
+}
+
+.cta{
+	background: #deb887;
+}
+
+button{
+	padding: 9px 25px;
+	background-color: rgba(35,255,0,0.5);
+	border: 2px solid;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover{
+	background-color: yellow;
+}
+
+.veggieCharacters{
+	background: #deb887;
+	object-fit: contain;
+	height: 130px;
+	width: 155px;
+	position: relative;
+}
+
+
+
+/*Contact Header*/
+.contactHeader{
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 25px;
+	text-decoration: underline;
+	font-size: 75px;
+}
+
+
+
+/*Form Styling*/
+input[type=text], select {
+	width: 100%;
+  	padding: 20px 20px;
+  	margin: 8px 0;
+  	display: inline-block;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+}
+
+input[type=submit] {
+	width: 100%;
+  	background-color: #deb887;
+  	color: white;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
+
+input[type=submit]:hover {
+  	background-color: #cd9449;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+.formContainer{
+	margin: auto;
+	width: 45%;
+  	border-radius: 7px;
+  	background-color: white;
+  	padding: 20px;
+}
+
+
+
+/*Bucks Homepage Main Body CSS*/
+#mainPageBody{
+	background-color: #FFDAB9;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+/*Hide Scroll Bar*/
+#mainPageBody::-webkit-scrollbar {
+	display: none;
+}
+
+/*Hide Scroll Bar*/
+#mainPageBody{
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+}
+
+
+
+/*Bucks Footer CSS*/
+#bucksFooter{
+	/*position: fixed;*/
+	padding: 10px 10px 0px 10px;
+	bottom: 0;
+	width: 100%;
+	/* Height of the footer*/ 
+	height: 90px;
+	background: #deb887;
+}
+
+#bucksFooter p{
+	background: #deb887;
+}
+
+/*Hide Scroll Bar*/
+#bucksFooter::-webkit-scrollbar {
+	display: none;
+}
+
+/*Hide Scroll Bar*/
+#bucksFooter{
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+}
+
+.column{
+	float:left;
+	text-align: center;
+	width: 33.33%;
+	padding: 5px;
+	background: #deb887;
+}
+
+.column h1{
+	margin-top: -15px;
+	text-align: center;
+	font-size: 30px;
+	font-family: "cursive", cursive;
+	text-decoration: underline;
+	background: #deb887;
+}
+
+.column p{
+	text-align: center;
+	font-size: 15px;
+	color: #228B22;
+}
+
+.column img{
+	background: #deb887;
+}
+
+.column a{
+	background: #deb887;
+}
+
+.hoursP{
+	padding: 2px;
+}
+
+.addressP{
+	padding-top: 15px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.addressP:hover {
+	color: yellow;
+}
+
+.socialMedia{
+	padding-bottom: 5px;
+}
+
+.fb{
+	position: relative;
+	right: 30px;
+	object-fit: contain;
+	width: 40px;
+	height: 40px;
+	background: #deb887;
+	cursor: pointer;
+}
+
+.google{
+	position: relative;
+	left: 22px;	
+	object-fit: contain;
+	width: 40px;
+	height: 40px;
+	background: #deb887;
+	cursor: pointer;
+}
+
+.insta{
+	position: relative;
+	right: 2px;
+	object-fit: contain;
+	width: 40px;
+	height: 40px;
+	background: #deb887;
+	cursor: pointer;
+}
+
+.row{
+	background: #deb887;
+}
+
+.row:after{
+	content: "";
+	display: table;
+	background: #deb887;
+	clear: both;
+}
+
+
+
+/*Production Info*/
+.productionInfo{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background: #deb887;
+	text-align: center;
+	font-size: 16px;
+	color: #f8f8ff;	
+}
